@@ -3,8 +3,5 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-/.idea/.idea.WebApiTest/.idea/indexLayout.xml
-/.idea/.idea.WebApiTest/.idea/projectSettingsUpdater.xml
-/.idea/.idea.WebApiTest/.idea/workspace.xml
-/.idea/.idea.WebApiTest/.idea/vcs.xml
-/.idea/.idea.WebApiTest_Docker/.idea/vcs.xml
+/.idea/*
+.idea/*
