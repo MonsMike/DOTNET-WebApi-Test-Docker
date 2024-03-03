@@ -31,3 +31,4 @@
 /home/mikemarinaro/src/Render/WebApiTest_Docker/obj/Debug/net8.0/WebApiTest_Docker.pdb
 /home/mikemarinaro/src/Render/WebApiTest_Docker/obj/Debug/net8.0/WebApiTest_Docker.genruntimeconfig.cache
 /home/mikemarinaro/src/Render/WebApiTest_Docker/obj/Debug/net8.0/ref/WebApiTest_Docker.dll
+/home/mikemarinaro/src/Render/WebApiTest_Docker/obj/Debug/net8.0/WebApiTest_Docker.sourcelink.json
