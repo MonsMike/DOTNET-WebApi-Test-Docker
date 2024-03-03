@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTest_Docker", "WebApiTest_Docker.csproj", "{89A20FF9-099C-4BE1-AB68-176EA856EF38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A20FF9-099C-4BE1-AB68-176EA856EF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A20FF9-099C-4BE1-AB68-176EA856EF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A20FF9-099C-4BE1-AB68-176EA856EF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A20FF9-099C-4BE1-AB68-176EA856EF38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

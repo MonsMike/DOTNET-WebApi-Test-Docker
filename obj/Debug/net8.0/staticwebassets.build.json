@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YUnXW7n6BTaeCgXfIHkNTIPGwrq8PeVCcHDIckRlqmI=",
+  "Source": "WebApiTest_Docker",
+  "BasePath": "_content/WebApiTest_Docker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
