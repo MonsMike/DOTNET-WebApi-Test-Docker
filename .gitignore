@@ -1,0 +1,9 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.idea/.idea.WebApiTest_Docker/.idea/indexLayout.xml
+/.idea/.idea.WebApiTest_Docker/.idea/projectSettingsUpdater.xml
+/.idea/.idea.WebApiTest_Docker/.idea/workspace.xml
+/.idea/.idea.WebApiTest_Docker/.idea/vcs.xml
