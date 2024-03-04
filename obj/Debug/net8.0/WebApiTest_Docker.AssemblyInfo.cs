@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiTest_Docker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70987c53925a8e8b52eec65e91525c1844bcd89a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f12f6cb6faef593bd1b109e9fee07ddf1e5e9099")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiTest_Docker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiTest_Docker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

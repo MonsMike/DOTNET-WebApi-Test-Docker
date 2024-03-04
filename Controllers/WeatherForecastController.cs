@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using WebApiTest.Helpers;
 
 namespace WebApiTest.Controllers;
 
@@ -6,35 +7,33 @@ namespace WebApiTest.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController(ILogger<WeatherForecastController> logger) : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
     private readonly ILogger<WeatherForecastController> _logger = logger;
 
     [HttpGet]
     public IEnumerable<WeatherForecast> Get()
     {
-        return Enumerable.Range(1, 10).Select(index => new WeatherForecast
+        List<WeatherForecast> wfList = [];
+        var i = 1;
+        while (i <= 10)
+        {
+            var tempF = Random.Shared.Next(-40, 120);
+            wfList.Add(new WeatherForecast
             {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(i)),
+                TemperatureF = tempF,
+                Summary = Helper.TempSummary(tempF)
+            });
+            i++;
+        }
+
+        return wfList.ToArray();
     }
 
-    [HttpPost]
+   /* [HttpPost]
     [ProducesResponseType(200, Type = typeof(List<string>))]
     public IEnumerable<string> Post([FromBody]SummaryTest bodyInput)
     {
         var summary = bodyInput.Summary;
         return Summaries.Append(summary).ToList();
-    }
-}
-
-public class SummaryTest
-{
-    public string Summary { get; }
+    }*/
 }
